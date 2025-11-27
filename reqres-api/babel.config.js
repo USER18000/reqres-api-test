@@ -3,7 +3,7 @@ module.exports = {
   presets: [
     ['@babel/preset-env', { 
       targets: { node: 'current' },
-      modules: 'commonjs' // Критически важно для Jest!
+      modules: 'commonjs' 
     }]
   ],
   plugins: [
